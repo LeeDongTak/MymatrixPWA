@@ -1,0 +1,38 @@
+/* 로컬라이징 */
+:root{
+    --light-gray : #f4f4f4;
+    --main_blue : #4aa8d8;
+    --dark_gray : #606060;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 12px;
+}
+html,body {
+    height: 100vh;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.blue {
+    color: var(--main_blue);
+}
+
+/* common 요소 */
+#main {
+    flex: 1;
+}
+i{
+    margin: 0 0.5rem;
+}

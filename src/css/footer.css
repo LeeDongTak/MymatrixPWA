@@ -1,0 +1,12 @@
+#footer {
+    background: var(--light-gray);
+    height: 8rem;
+}
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    line-height: 8rem;
+    gap: 2rem;
+}

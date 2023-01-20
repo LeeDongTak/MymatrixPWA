@@ -1,0 +1,53 @@
+#Signup_wrap {
+    position: relative;
+    height: 100vh;
+}
+.signup_container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.signup_container h1 {
+    font-size: 3.2rem;
+}
+
+.signup_form{
+    width: 80%;
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto 0;
+}
+.signup_form > input {
+    width: 100%;
+    font-size: 1.6rem;
+    line-height: 2.5;
+    padding-left: 1rem;
+    border: 2px solid var(--dark_gray);
+}
+.message{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    visibility: visible;
+}
+
+#signup {
+    padding: 0;
+    border: none;
+    background: var(--main_blue);
+    color: #fff;
+    cursor: pointer;
+}
+#signup:hover {
+    color: #000;
+}
+
+@media only all and (max-width: 500px){
+    html {
+        font-size: 8px;
+    }
+}

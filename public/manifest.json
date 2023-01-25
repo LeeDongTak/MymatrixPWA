@@ -3,17 +3,17 @@
   "name": "중요도와 긴급성을 기존으로 우선 순위를 세위 성공일정을 만듭니다.",
   "icons": [
     {
-      "src": "check_sign_icon.ico",
+      "src": "checkicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "check_sign_icon192.png",
+      "src": "check192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "check_sign_icon512.png",
+      "src": "check512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

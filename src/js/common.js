@@ -1,2 +1,2 @@
-export const url = 'http://leedschedule.shop';
+export const url = 'https://leedschedule.shop';
 

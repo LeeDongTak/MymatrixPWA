@@ -98,13 +98,13 @@ function Header(props){
             <div className="inner">
                 <div className="header_container">
                     <div className="title" onClick={()=>{ props.navigate('/') }}>
-                        <a href="#">성공일정</a>
+                        성공일정
                     </div>
                     {/* <!-- title --> */}
                     <div className="sign_container">
                             <div className="unsigned" style={{display : nickNameBoolean === true ?"none": "flex"}} >
-                                <div className="sign_in" onClick={()=>{ props.navigate('/signin') }}><a href="#">로그인</a></div>
-                                <div className="sign_up" onClick={()=>{ props.navigate('/signup') }}><a href="#">회원가입</a></div>
+                                <div className="sign_in" onClick={()=>{ props.navigate('/signin') }}>로그인</div>
+                                <div className="sign_up" onClick={()=>{ props.navigate('/signup') }}>회원가입</div>
                             </div>
                             {/* unsigned  */}
                             <div className="signed" style={{display : nickNameBoolean === true ?"block": "none"}} >

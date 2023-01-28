@@ -9,20 +9,25 @@
     height: 5rem;
     margin: 0 1rem;
 }
-.title a{
+.title{
     font-size: 2rem;
     color: var(--main_blue);
     font-weight: 900;
+    cursor: pointer;
 }
 .unsigned{
     display: flex;
 }
-.sign_container a{
+.sign_container{
     font-size: 1.6rem;
 }
 .sign_in{
    margin-right: 1rem;
+   cursor: pointer;
 }
+.sign_up{
+    cursor: pointer;
+ }
 
 @media only all and (min-width: 1200px){
     .inner {

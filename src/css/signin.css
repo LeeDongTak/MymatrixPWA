@@ -40,9 +40,10 @@
     width: 100%;
     text-align: center;
 }
-.signin_form > .signup_btn > a{
+.signin_form > .signup_btn > span{
     color: #000;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 
 @media only all and (max-width: 500px){

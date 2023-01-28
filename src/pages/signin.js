@@ -74,7 +74,7 @@ function SignIn(){
                                 }
                             }  } onChange={(e)=>{setInputPassword(e.target.value)}} />
                         <input type="button" value="로그인" id="signin" onClick={signin} />
-                        <div className="signup_btn" onClick={()=>{ navigate('/signup') }}><a href='#'>회원가입</a></div>
+                        <div className="signup_btn" onClick={()=>{ navigate('/signup') }}><span>회원가입</span></div>
                     </div>
                     {/* signin_form */}
                 </div>

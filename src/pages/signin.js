@@ -33,7 +33,7 @@ function SignIn(){
         // 로그인 API 요청
         const config = {
             method: "post",
-            url: url + "/signin",
+            url: url+"/signin" + "/signin",
             data: {
               email: inputEmail,
               password: inputPassword  
